@@ -15,13 +15,13 @@ header{
     /* z-index: -1; */
     width: 100%;
     top: 0;
-    /* nav-down:auto; */
+    nav-down:auto;
      /* display: flex;
     justify-content: space-between; */
      
 
 }
-nav  , .green , #demo{
+nav  ,.green ,#demo{
     display: flex;
     justify-content: space-between;
     gap: 40px; 
@@ -31,7 +31,24 @@ nav  , .green , #demo{
 
 }
 
+.sec{
+    
+    gap: 30px;
+    margin-top: 50px;
+    
+}
 
+.secc{
+   margin-bottom: 5%;
+    color: white;
+    justify-content: space-between;
+}
+
+
+.seco{
+    display: block;
+
+}
 
 
 /* nav.header {
@@ -57,14 +74,14 @@ a::after{
     color: dodgerblue;
 }
 
-#demo2{
+#demo22{
     padding: 2% 15%;
-    gap: 10px;
+    gap: 30px;
     background-color:rgba(0, 0, 0, 0.747);
-    display: flex;
+    display: block;
     justify-content: space-between;
     margin-top: 9.1%;
-    
+  
     
 }
 

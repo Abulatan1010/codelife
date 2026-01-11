@@ -57,24 +57,47 @@ a::after{
     color: dodgerblue;
 }
 
-#demo2{
+.portf{
     padding: 2% 15%;
     gap: 10px;
     background-color:rgba(0, 0, 0, 0.747);
-    display: flex;
+    display: block;
     justify-content: space-between;
     margin-top: 9.1%;
+ 
     
     
 }
 
 
-.demo3{
+#row{
     color: #ffff;
     font-weight: bold;
     font-size: 120%;
     margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+       display: flex;
+    justify-content: space-between;
     
+}
+
+.rem3{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 120%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+       display: flex;
+    justify-content: space-between;
+    
+}
+
+.port1{
+   margin-top: 15%;
 }
 
 footer{
@@ -146,7 +169,7 @@ footer{
     }
 
     /* Stack main sections */
-    #demo2 {
+    .portf, #row, .rem3 {
         flex-direction: column;
         gap: 20px;
     }
@@ -165,7 +188,7 @@ footer{
         width: auto !important;
     }
     
-    .demo3 img {
+    .row img {
         width: 100% !important;
         height: auto !important;
     }

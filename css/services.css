@@ -57,25 +57,40 @@ a::after{
     color: dodgerblue;
 }
 
-#demo2{
+#treet{
     padding: 2% 15%;
     gap: 10px;
     background-color:rgba(0, 0, 0, 0.747);
-    display: flex;
+    display: block;
     justify-content: space-between;
     margin-top: 9.1%;
     
     
 }
+.ere{
+    margin-top: 10%;
+}
 
+.tee{
+    margin-top: 3%;
+    color:#ffff
+}
+.dee{
+    margin-top: 3%;
+}
 
+.ref{
+    margin-top: 10%;
+
+}
+/* 
 .demo3{
     color: #ffff;
     font-weight: bold;
     font-size: 120%;
     margin-top: 10%;
     
-}
+} */
 
 footer{
      background-color: black;

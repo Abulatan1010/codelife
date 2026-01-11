@@ -61,7 +61,7 @@ a::after{
     padding: 2% 15%;
     gap: 10px;
     background-color:rgba(0, 0, 0, 0.747);
-    display: flex;
+    display: block;
     justify-content: space-between;
     margin-top: 9.1%;
     
@@ -75,6 +75,21 @@ a::after{
     font-size: 120%;
     margin-top: 10%;
     
+}
+
+.free{
+    /* display: flex;
+    justify-content: space-between; */
+    margin-top: 3%;
+    gap: 30px;
+    color: black;
+}
+.tree{
+    list-style-type: square;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: black;
+    font-size: 110%;
 }
 
 footer{
