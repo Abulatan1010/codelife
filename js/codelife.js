@@ -1,10 +1,15 @@
-function Myfunction (){
-    alert('Login succesfully')
-}
+// select togglebtn 
+let togglebtn = document.getElementById('Toggletheme');
 
-const menuBtn = document.getElementById("menuBtn");
-const nav = document.getElementById("navbar");
+// listen to event
 
-menuBtn.addEventListener("click", () => {
-  nav.classList.toggle("show");
+togglebtn.addEventListener("click", () =>{
+    // toggle body to dark
+
+    document.body.classList.toggle("dark");
+
+    // change icon base on mode
+
+    togglebtn.textContent =
+    document.body.classList.contains('dark') ? "☀️" : "🌙";
 });
